@@ -9,7 +9,7 @@ const Sidebar = () => {
   };
 
   return (
-    <aside className={`bg-gray-200 p-4 ${isOpen ? 'block' : 'hidden'}  md:block  w-64`}>
+    <aside className={`bg-gray-200 p-4 ${isOpen ? 'block' : 'hidden'} md:block w-48`}>
       <div className="md:hidden">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-semibold">Menu</h2>

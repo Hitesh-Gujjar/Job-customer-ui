@@ -23,10 +23,11 @@ const SignInModal = ({ isOpen, onClose, isModalOpen, setIsModalOpen }) => {
 
     return (
         <>
-            <button className='text-white px-4 text-2xl cursor-pointer'
+            <button
+                className='text-white text-lg cursor-pointer'
                 onClick={() => openModal()}
             >
-                Sign In
+                Sign In/Sign Up
             </button>
 
             <Modal isOpen={isModalOpen} onClose={closeModal}>

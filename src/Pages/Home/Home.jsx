@@ -94,9 +94,9 @@ function Home() {
       ];
     return (
         <Layout>
-            <div className="container mx-auto overflow-auto h-[88vh]">
-                <h1 className="text-3xl font-bold text-start">Job Advertisements</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div className="container mx-auto">
+                <h1 className="text-3xl font-bold text-start my-5">Job Advertisements</h1>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                     {jobDetails.map((job, index) => (
                         <JobCard key={index} job={job} />
                     ))}
