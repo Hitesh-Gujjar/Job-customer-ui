@@ -34,7 +34,7 @@ const JobCard = ({ job }) => {
             </div>
             <div>
                 <p className="text-sm text-gray-600">{key_skill}</p>
-                <p className="text-gray-700">{description_company}</p>
+                <span className="text-gray-700 text-xs">{description_company}</span>
                 <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">
                     Apply Now
                 </button>
