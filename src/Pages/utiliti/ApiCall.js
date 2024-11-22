@@ -1,5 +1,5 @@
+// const baseUrl =  'http://localhost:8000/client/ui';
 const baseUrl = "https://job-backend-mauve.vercel.app/client/ui"
-// 'http://localhost:8000/client/ui'
 
 const getApi = async (url) => {
     try {
